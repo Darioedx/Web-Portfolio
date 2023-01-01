@@ -1,0 +1,15 @@
+
+=
+img/joke2.svg,5\5\55d45dd4589ff59b5447aeb2582fdda8835e126b
+:
+
+index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
+<
+contact.html,1\4\143617604351c3b10191461458ec5e120a28597c
+:
+
+about.html,8\1\8143af03f594989ae71e2d1be57beadf78357d4c
+9
+	work.html,e\f\ef13a0b95cef23923be0441f66c2e3206a6391cc
+=
+css/style.css,1\2\126b0f8c1ec95fb3a2541745bfc21365b438d668
