@@ -113,11 +113,11 @@ h1,h2,h3{
 }
 #cloud4,#cloud  {
   animation: 34s cloud-move-reverse infinite alternate linear;
-  fill:#e1f2f7;
+  fill:var(--cloud-anim-color);
 }
 #cloud3{
   animation: 30s cloud-move infinite alternate linear;
-  fill:#e1f2f7;
+  fill:var(--cloud-anim-color);
 }
 
 
@@ -209,12 +209,21 @@ span {
     font-size: calc(var(--size-font) - 3px);
 }
 table{
-    background-color: var(--primary-bg-color);
-     margin-bottom: 1%;
+
+    margin: 0 auto;
+
 }
 th, td {
      padding: 15px;
+     background-color: var(--primary-bg-color);
+     font-weight:calc(var(--font-weight-base) - 400);
+     border: 5px solid white;
+
 }
+caption{
+     display: none;
+}
+
 /* start grid fallback */
 .grid__item,.profile_gr_item {
      display: inline-block;
@@ -303,10 +312,10 @@ th, td {
 }
 @media all and (max-width: 750px){
      .h2 {
-     font-size:calc(var(--size-font) - 10px);
+     font-size: calc(var(--size-font) - 10px);
      }
      .h1{
-     font-size: 20px;
+     font-size: calc(var(--size-font) - 10px);
 
      }
      .grid__item:first-child {
@@ -349,10 +358,10 @@ th, td {
      margin-top: 0%;
     }
      .h1index{
-     font-size: 18px;
+     font-size: calc(var(--size-font) - 2px);
     }
      .p_index{
-     font-size: 13px;
+     font-size: calc(var(--size-font) - 7px);
      margin: 0;
     }
 
@@ -366,6 +375,9 @@ th, td {
        grid-gap: 40px;
        grid-template-rows: 200px;
 
+   }
+   .txt-align{
+       text-align: justify;
    }
 
    .p_index{
