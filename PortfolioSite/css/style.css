@@ -91,7 +91,7 @@ h1,h2,h3{
     position: absolute;
     left: 25%;
     width:50%;
-    height: 73%;
+    top: 47%;
 
 }
 @keyframes cloud-move {
@@ -282,11 +282,7 @@ caption{
     .indexspan {
         font-size: var(--size-font);
    }
-   .anim_svg {
-       position: absolute;
-       left: 15%;
-       width: 80%;
-       height: 40%;
+
    }
    .primfoto{
         width: 150px;
@@ -299,7 +295,6 @@ caption{
     }
     .h1{
          font-size: calc(var(--size-font) - 5px);
-
     }
 
 }
@@ -324,12 +319,8 @@ caption{
          margin-left: 0%;
          margin-top:5%;
      }
-   .anim_svg {
-        position: absolute;
-        left: 25%;
-        width: 50%;
-        height: 40%;
-    }
+
+
 }
 @media all and (max-width: 750px){
 
@@ -365,7 +356,11 @@ caption{
          margin: 0;
     }
 
-
+    .anim_svg {
+        top: 65%;
+        width: 100%;
+        left: 0%;
+    }
 }
 
 @media  (min-width: 750px) and (max-width: 1200px){
@@ -398,12 +393,12 @@ caption{
      .h1index{
          font-size: var(--size-font);
     }
-    .anim_svg {
-    position: absolute;
-    left: 25%;
-    width: 50%;
-    height: 55%;
+   .anim_svg {
+        top: 58%;
+        width: 100%;
+        left: 0%;
     }
+
 
 }
 @media (min-width:1200px)and (max-width: 1500px){
@@ -422,14 +417,17 @@ caption{
           margin-left: 78%;
     }
 
+
 }
 @media all and (min-width: 1700px){
    .primfoto{
         width: 220px;
-
         margin-left: 90%;
         margin-top:2%;
      }
+   .anim_svg {
+        top: 38%;
+  }
 
 }
 

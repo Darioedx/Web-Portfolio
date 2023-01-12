@@ -93,7 +93,7 @@ h1,h2,h3{
     position: absolute;
     left: 25%;
     width:50%;
-    height: 73%;
+    top: 47%;
 
 }
 @-webkit-keyframes cloud-move {
@@ -381,12 +381,7 @@ caption{
     .indexspan {
         font-size: 20px;
    }
-   .anim_svg {
-       position: absolute;
-       left: 15%;
-       width: 80%;
-       height: 40%;
-   }
+
    .primfoto{
         width: 150px;
         border-radius: 50%;
@@ -434,12 +429,7 @@ caption{
          margin-left: 0%;
          margin-top:5%;
      }
-   .anim_svg {
-        position: absolute;
-        left: 25%;
-        width: 50%;
-        height: 40%;
-    }
+
 }
 @media all and (max-width: 750px){
 
@@ -480,7 +470,11 @@ caption{
          font-size: calc(20px - 7px);
          margin: 0;
     }
-
+    .anim_svg {
+        top: 65%;
+        width: 100%;
+        left: 0%;
+    }
 
 }
 
@@ -522,11 +516,10 @@ caption{
      .h1index{
          font-size: 20px;
     }
-    .anim_svg {
-    position: absolute;
-    left: 25%;
-    width: 50%;
-    height: 55%;
+     .anim_svg {
+        top: 58%;
+        width: 100%;
+        left: 0%;
     }
 
 }
@@ -550,11 +543,12 @@ caption{
 @media all and (min-width: 1700px){
    .primfoto{
         width: 220px;
-
         margin-left: 90%;
         margin-top:2%;
      }
-
+   .anim_svg {
+        top: 38%;
+  }
 }
 
 /* Index SVG default style values line 426 to 1740*/
