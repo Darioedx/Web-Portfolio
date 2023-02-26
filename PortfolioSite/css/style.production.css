@@ -179,7 +179,7 @@ h1,h2,h3{
     width: 30px;
     height: 30px;
  }
- .cloud,{
+ .cloud{
 
   -webkit-animation: 30s cloud-move infinite alternate linear;
 
@@ -361,9 +361,14 @@ caption{
 @media all and (max-width: 500px) {
   .grid {
        -ms-grid-columns:1fr 5px 1fr;
-       grid-template-columns:1fr 1fr;
+       grid-template-columns:1fr 1fr 1fr;
        grid-gap: 5px;
+	   justify-content: center;
+	   font-size: smaller;
   }
+  .joke {
+    width: 180px;
+   }
    .profile_grid {
        -ms-grid-columns: 1fr ;
        grid-template-columns: 1fr ;
@@ -377,6 +382,10 @@ caption{
        -ms-grid-row-span: 3;
        grid-row: 1/ 4;
     }
+	.grid__item {
+		padding: 10%;
+		
+	}
 
     .indexspan {
         font-size: 20px;
@@ -549,6 +558,9 @@ caption{
    .anim_svg {
         top: 38%;
   }
+}
+.error-message {
+    color: red;
 }
 
 /* Index SVG default style values line 426 to 1740*/
