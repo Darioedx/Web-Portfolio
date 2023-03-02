@@ -139,7 +139,7 @@ h1,h2,h3{
     width: 30px;
     height: 30px;
  }
- .cloud,{
+ .cloud{
 
   animation: 30s cloud-move infinite alternate linear;
 
@@ -267,9 +267,18 @@ caption{
 
 @media all and (max-width: 500px) {
   .grid {
-       grid-template-columns:1fr 1fr;
+       grid-template-columns:1fr 1fr 1fr;
        grid-gap: 5px;
+	   justify-content: center;
+	   font-size: smaller;
   }
+  .joke {
+    width: 180px;
+   }
+   .grid__item {
+	padding: 10%;
+	
+}
    .profile_grid {
        grid-template-columns: 1fr ;
        margin-top: 0%;
@@ -297,7 +306,7 @@ caption{
          font-size: calc(var(--size-font) - 5px);
     }
 
-}
+
 @media all and (min-width: 500px) and (max-width: 750px){
    .grid {
         grid-template-columns:1fr 1fr 1fr;
